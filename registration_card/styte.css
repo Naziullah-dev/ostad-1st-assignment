@@ -1,0 +1,118 @@
+/* ====common css start==== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ====common css end==== */
+
+/* ====registration_card css start==== */
+html,body{
+    background-image: linear-gradient(to right bottom, #677BE6, #8c45eb);
+    height: 100%;
+}
+
+.registration_card{
+    display: flex;            
+    justify-content: center;  
+    align-items: center; 
+    height: 100%;  
+}
+
+.reg_form{
+    width: 800px;
+    background-color: #dcf2fae7;
+    border-radius: 8px; 
+}
+
+.reg_form_wrap{
+    padding-top: 50px;
+    padding-bottom: 40px;  
+}
+
+.reg_form_wrap h3{
+    font-family: sans-serif;
+    font-style: 50px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form_row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.form_data{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    
+}
+.form_data label{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.68);
+}
+
+
+.form_data input{
+    width: 200px;
+    padding:8px;
+    border: 1px solid #ebf9ffd2;
+    /* background-color: #edf5f6ea; */
+    background-color: #ebf9ffd2;
+    border-radius: 5px; 
+}
+
+.gender{
+    padding: 25px 25px;
+    
+}
+.gender label{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.button_section {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.button_section input{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding:10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/* button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding:10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+} */
+
+.button1 {
+    background-color: #FF5E57;
+
+  }
+.button2 {
+    background-image: linear-gradient(to right bottom, #677BE6, #8c45eb);
+    margin-left: 10px;
+  }
+
+/* ====registration_card css end==== */
